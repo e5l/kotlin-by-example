@@ -14,5 +14,4 @@ group :jekyll_plugins do
   gem "jekyll-optional-front-matter" # render Markdown that has no YAML front matter
   gem "jekyll-readme-index"          # serve README.md as the site homepage
   gem "jekyll-default-layout"        # apply the theme layout without per-file declarations
-  gem "jekyll-titles-from-headings"  # derive each page <title> from its first heading
 end

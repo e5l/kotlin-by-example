@@ -14,7 +14,10 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-default-layout
-  - jekyll-titles-from-headings
+
+# The minima theme otherwise lists every page in the top navigation; the examples
+# are reached through the README index, so keep the header nav empty.
+header_pages: []
 
 # Keep tooling and non-content files out of the generated site.
 exclude:
