@@ -1,0 +1,17 @@
+# Jekyll configuration for the GitHub Pages site.
+# The examples/*.md and README.md files are the single source of truth; this only
+# tells GitHub Pages how to render them. The branch-deploy pipeline auto-enables
+# jekyll-relative-links, jekyll-optional-front-matter, jekyll-readme-index,
+# jekyll-default-layout, and jekyll-titles-from-headings, which turn the plain
+# Markdown into a site without modifying any of the content.
+
+title: Kotlin by Example
+description: A hands-on introduction to Kotlin via annotated example programs.
+theme: minima
+
+# Exclude tooling and non-content files from the generated site.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - META-INF
+  - vendor
