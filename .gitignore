@@ -1,1 +1,8 @@
 .idea
+
+# Jekyll / GitHub Pages local build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+vendor/

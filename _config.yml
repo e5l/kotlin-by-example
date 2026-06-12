@@ -1,0 +1,24 @@
+# Jekyll configuration for the GitHub Pages site, built by the Actions workflow in
+# .github/workflows/jekyll.yml. The examples/*.md and README.md files are the single
+# source of truth; the plugins below turn that plain Markdown into a navigable site
+# without modifying any of the content.
+
+title: Kotlin by Example
+description: A hands-on introduction to Kotlin via annotated example programs.
+theme: minima
+
+# Listed explicitly because the Actions build does not auto-enable them the way
+# GitHub's legacy branch build does. See the Gemfile for what each one does.
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Keep tooling and non-content files out of the generated site.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - META-INF
+  - vendor
